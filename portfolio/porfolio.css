@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+nav 
+{
+    background-color: #863a3a;
+    color: rgb(231, 175, 175);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+#scrollBtn,
+#scrollToTopBtn 
+{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
